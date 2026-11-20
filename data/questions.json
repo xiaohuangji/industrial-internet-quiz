@@ -1,0 +1,4131 @@
+{
+  "version": 1,
+  "title": "工业互联网题库",
+  "source_sha256": "84da81283c09f8cf0d59ef31a4df781b73cb33b590bcef85ed803d1364165648",
+  "chapters": [
+    {
+      "id": "01",
+      "label": "第1章",
+      "title": "工业互联网概论"
+    },
+    {
+      "id": "02",
+      "label": "第2章",
+      "title": "感知识别技术测试"
+    },
+    {
+      "id": "03",
+      "label": "第3章",
+      "title": "近距离无线通信技术"
+    },
+    {
+      "id": "45",
+      "label": "第4—5章",
+      "title": "标识解析、互联网平台、边云协同"
+    },
+    {
+      "id": "68",
+      "label": "第6—8章",
+      "title": "工业 APP、工业大数据、工业互联网安全"
+    }
+  ],
+  "types": {
+    "fill": "填空题",
+    "single_choice": "单项选择题",
+    "true_false": "判断题",
+    "short": "简答题"
+  },
+  "questions": [
+    {
+      "id": "ch01_001",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 1,
+      "type": "fill",
+      "question": "工业互联网的内涵核心在于 {{1}} 与 {{2}} ，{{3}}是核心对象，{{4}}是关键手段。",
+      "options": null,
+      "answer": [
+        "工业",
+        "互联网",
+        "工业",
+        "互联网"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网的内涵核心在于 工业 与 互联网 ，工业是核心对象，互联网是\n关键手段。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_002",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 2,
+      "type": "fill",
+      "question": "物联网是通过{{1}}、{{2}}等实现{{3}}、{{4}}的泛在连接，实现对物品和过程的智能化感知、识别和管理。",
+      "options": null,
+      "answer": [
+        "信息传感器",
+        "射频识别技术",
+        "物与物",
+        "物与人"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "物联网是通过信息传感器、射频识别技术等实现物与物、物与人的泛在连接，\n实现对物品和过程的智能化感知、识别和管理。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_003",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 3,
+      "type": "fill",
+      "question": "工业互联网主要包括{{1}}、{{2}}、{{3}}、{{4}}和{{5}}五个层次。",
+      "options": null,
+      "answer": [
+        "设备层",
+        "网络层",
+        "平台层",
+        "APP 层",
+        "应用层"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网主要包括设备层、网络层、平台层、APP 层和应用层五个层次。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_004",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 4,
+      "type": "fill",
+      "question": "依据《工业互联网体系架构 1.0》，工业互联网的三大核心功能体系包括{{1}}、{{2}}和{{3}}。",
+      "options": null,
+      "answer": [
+        "网络",
+        "数据",
+        "安全"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "依据《工业互联网体系架构 1.0》，工业互联网的三大核心功能体系包括网\n络、数据和安全。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_005",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 5,
+      "type": "fill",
+      "question": "依据《工业互联网体系架构 2.0》，工业互联网的三大核心功能体系包括{{1}}、{{2}}和{{3}}。",
+      "options": null,
+      "answer": [
+        "网络",
+        "平台",
+        "安全"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "依据《工业互联网体系架构 2.0》，工业互联网的三大核心功能体系包括网\n络、平台和安全。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_006",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 6,
+      "type": "fill",
+      "question": "物联网体系架构主要包括{{1}}、 {{2}} 和 {{3}} 三个层次",
+      "options": null,
+      "answer": [
+        "感知层",
+        "网络层",
+        "应用层"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "物联网体系架构主要包括感知层、 网络层 和 应用层 三个层次",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_007",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 7,
+      "type": "fill",
+      "question": "物联网体系架构主要包括感知层、网络层和应用层三个层次，其中感知层负责 {{1}} ，网络层负责 {{2}} ，应用层负责 {{3}} 。",
+      "options": null,
+      "answer": [
+        "数据采集",
+        "数据传输",
+        "提供应用解决方案"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "物联网体系架构主要包括感知层、网络层和应用层三个层次，其中感知层负\n责 数据采集 ，网络层负责 数据传输 ，应用层负责 提供应用解决方案 。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_008",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 8,
+      "type": "fill",
+      "question": "工业互联网的本质是通过{{1}}、{{2}}、{{3}}的全面互联，实现工业数据的{{4}}、{{5}}、{{6}}，形成科学决策与智能控制，提高制造资源配置效率。",
+      "options": null,
+      "answer": [
+        "人",
+        "机",
+        "物",
+        "全面感知",
+        "动态传输",
+        "实时分析"
+      ],
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网的本质是通过人、机、物的全面互联，实现工业数据的全面感知、\n动态传输、实时分析，形成科学决策与智能控制，提高制造资源配置效率。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_009",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 9,
+      "type": "single_choice",
+      "question": "工业互联网与消费互联网的主要区别是（　）",
+      "options": {
+        "A": "服务对象不同：消费互联网主要服务于个人，而工业互联网主要服务于企业。",
+        "B": "市场主角相同：两者都是以互联网公司为主角。",
+        "C": "增长速度相同：两者都呈现指数级增长。",
+        "D": "市场结构相同：两者在细分领域中都出现“寡头”或“双巨头”现象。"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网与消费互联网的主要区别是（ A ）\nA.服务对象不同：消费互联网主要服务于个人，而工业互联网主要服务于企\n业。\nB.市场主角相同：两者都是以互联网公司为主角。\nC.增长速度相同：两者都呈现指数级增长。\nD.市场结构相同：两者在细分领域中都出现“寡头”或“双巨头”现象。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_010",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 10,
+      "type": "single_choice",
+      "question": "工业 4.0 是以（　）为主导的第四次工业革命。",
+      "options": {
+        "A": "智能制造",
+        "B": "个性化定制",
+        "C": "机器人自动化生成",
+        "D": "3D 制造"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业 4.0 是以（ A ）为主导的第四次工业革命。\nA. 智能制造   B、个性化定制   C、机器人自动化生成   D、3D 制造",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_011",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 11,
+      "type": "single_choice",
+      "question": "工业互联网的核心目标是（　）",
+      "options": {
+        "A": "提升消费互联网体验",
+        "B": "实现工业智能化生成与运营",
+        "C": "扩大企业营销渠道",
+        "D": "降低工业产品生成成本"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网的核心目标是（ B ）\nA、提升消费互联网体验\nB、实现工业智能化生成与运营\nC、扩大企业营销渠道\nD、降低工业产品生成成本",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_012",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 12,
+      "type": "single_choice",
+      "question": "下列不属于工业互联网的关键技术（　）。",
+      "options": {
+        "A": "物联网（IoT）",
+        "B": "人工智能（AI）",
+        "C": "大数据分析",
+        "D": "办公自动化（OA）"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 1,
+      "source_pages": [
+        1,
+        2
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "下列不属于工业互联网的关键技术（ D ）。\nA. 物联网（IoT） B、人工智能（AI）       C、大数据分析      D、办公自动\n化（OA）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_013",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 13,
+      "type": "single_choice",
+      "question": "工业互联网的用户为工业企业，改变代价高，因此往往呈现（　）增长。",
+      "options": {
+        "A": "几何级",
+        "B": "非线性",
+        "C": "指数级",
+        "D": "线性"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网的用户为工业企业，改变代价高，因此往往呈现（ D ）增长。\nA. 几何级   B. 非线性   C. 指数级    D. 线性",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_014",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 14,
+      "type": "single_choice",
+      "question": "在工业互联网领域，市场的主角是传统（　），互联网公司为其提供互联网工具，提升竞争力，两者呈现合作共赢的关系。",
+      "options": {
+        "A": "个人",
+        "B": "企业",
+        "C": "工具",
+        "D": "产品"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在工业互联网领域，市场的主角是传统（ B ），互联网公司为其提供互联\n网工具，提升竞争力，两者呈现合作共赢的关系。\nA. 个人    B、企业     C、工具     D、产品",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_015",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 15,
+      "type": "true_false",
+      "question": "工业互联网仅仅是传统工业的数字化。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网仅仅是传统工业的数字化。           （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_016",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 16,
+      "type": "true_false",
+      "question": "物联网（IoT）是工业互联网的基础，负责实现工业设备的互联互通。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "物联网（IoT）是工业互联网的基础，负责实现工业设备的互联互通。           （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_017",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 17,
+      "type": "true_false",
+      "question": "工业互联网是消费互联网在工业领域的简单延伸。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网是消费互联网在工业领域的简单延伸。              （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_018",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 18,
+      "type": "true_false",
+      "question": "“物联网”是在“互联网”的基础上，将其用户端延伸和扩展到任何物品与物品之间，进行信息交换和通信的一种概念。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "“物联网”是在“互联网”的基础上，将其用户端延伸和扩展到任何物品与\n物品之间，进行信息交换和通信的一种概念。                （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_019",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 19,
+      "type": "short",
+      "question": "简要阐述工业互联网与工业物联网的区别和特点。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述工业互联网与工业物联网的区别和特点。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_020",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 20,
+      "type": "short",
+      "question": "简要阐述互联网、物联网、工业互联网与工业物联网的区别和特点。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述互联网、物联网、工业互联网与工业物联网的区别和特点。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_021",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 21,
+      "type": "short",
+      "question": "请结合实习企业或所在行业，讨论工业互联网有哪些具体的体现或应用？",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "与本章原题号 26 重复，原位保留。",
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "请结合实习企业或所在行业，讨论工业互联网有哪些具体的体现或应用？",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_022",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 22,
+      "type": "short",
+      "question": "物联网的体系架构主要包括哪些层次，并简要阐述各层功能以及与工业互联网层次结构的区别？",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "物联网的体系架构主要包括哪些层次，并简要阐述各层功能以及与工业互联\n网层次结构的区别？",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_023",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 23,
+      "type": "short",
+      "question": "简要给出工业互联网产业涉及的典型层次。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要给出工业互联网产业涉及的典型层次。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_024",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 24,
+      "type": "short",
+      "question": "简述工业互联网对传统制造业带来的变革。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简述工业互联网对传统制造业带来的变革。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_025",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 25,
+      "type": "short",
+      "question": "简述工业互联网或工业物联网的主要应用场景。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简述工业互联网或工业物联网的主要应用场景。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch01_026",
+      "chapter": "第1章",
+      "chapter_id": "01",
+      "original_number": 26,
+      "type": "short",
+      "question": "请结合实习企业或所在行业，讨论工业互联网有哪些具体的体现或应用？",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 2,
+      "source_pages": [
+        2
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "与本章原题号 21 重复，原位保留。",
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "请结合实习企业或所在行业，讨论工业互联网有哪些具体的体现或应用？",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_001",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 1,
+      "type": "fill",
+      "question": "常见的多模态感知方法有 {{1}} 和 {{2}} 。",
+      "options": null,
+      "answer": [
+        "视觉感知",
+        "听觉感知"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "常见的多模态感知方法有 视觉感知 和 听觉感知 。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_002",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 2,
+      "type": "fill",
+      "question": "视觉感知中，图像预处理方法有 {{1}} 、几何变换、 {{2}} 。",
+      "options": null,
+      "answer": [
+        "灰度化",
+        "图像增强"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "视觉感知中，图像预处理方法有 灰度化 、几何变换、 图像增强 。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_003",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 3,
+      "type": "fill",
+      "question": "语音信号预处理的主要步骤包括{{1}}、{{2}}。",
+      "options": null,
+      "answer": [
+        "语音信号去噪",
+        "语音信号增强"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "语音信号预处理的主要步骤包括语音信号去噪、语音信号增强。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_004",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 4,
+      "type": "fill",
+      "question": "在条形码编码方法中，模块组合法用一个标准宽度的{{1}}表示二进制的“1”，而一个标准宽度的{{2}}表示二进制的“0”。",
+      "options": null,
+      "answer": [
+        "“条模块”",
+        "“空模块”"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在条形码编码方法中，模块组合法用一个标准宽度的“条模块”表示二进制的\n“1”，而一个标准宽度的“空模块”表示二进制的“0”。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_005",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 5,
+      "type": "fill",
+      "question": "RFID 系统主要由{{1}}、{{2}}、{{3}}和{{4}}组成。",
+      "options": null,
+      "answer": [
+        "电子标签",
+        "阅读器",
+        "中间件",
+        "中央信息系统"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "RFID 系统主要由电子标签、阅读器、中间件和中央信息系统组成。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_006",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 6,
+      "type": "fill",
+      "question": "多模态感知数据融合方法主要包括 {{1}} 、 {{2}} 和{{3}}。",
+      "options": null,
+      "answer": [
+        "数据级融合",
+        "特征级融合",
+        "目标级融合"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "多模态感知数据融合方法主要包括 数据级融合 、 特征级融合 和目标级融\n合。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_007",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 7,
+      "type": "fill",
+      "question": "自动识别系统模型的软硬件组成由{{1}}、{{2}}和{{3}}组成。",
+      "options": null,
+      "answer": [
+        "自动识别装置",
+        "中间件/接口",
+        "应用软件系统"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "自动识别系统模型的软硬件组成由自动识别装置、中间件/接口和应用软件系\n统组成。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_008",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 8,
+      "type": "fill",
+      "question": "感知技术是指利用{{1}}、{{2}}和{{3}}，实现对物理世界的物理量的感知、识别和理解的技术，其是联系{{4}}和{{5}}的纽带。",
+      "options": null,
+      "answer": [
+        "各种传感器",
+        "通信技术",
+        "数据处理技术",
+        "物理世界",
+        "信息世界"
+      ],
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "感知技术是指利用各种传感器、通信技术和数据处理技术，实现对物理世界\n的物理量的感知、识别和理解的技术，其是联系物理世界和信息世界的纽带。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_009",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 9,
+      "type": "single_choice",
+      "question": "图像滤波属于哪种图像预处理方法？（　）",
+      "options": {
+        "A": "灰度化",
+        "B": "几何变换",
+        "C": "图像增强",
+        "D": "特征提取"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "图像滤波属于哪种图像预处理方法？（ C ）\nA. 灰度化   B. 几何变换   C. 图像增强   D. 特征提取",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_010",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 10,
+      "type": "single_choice",
+      "question": "以下关于感知和识别技术描述不正确的是？（　）",
+      "options": {
+        "A": "感知是识别的基础",
+        "B": "感知主要依赖物理传感器",
+        "C": "识别依赖于算法模型和数据库",
+        "D": "识别主要用于定位跟踪对象"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于感知和识别技术描述不正确的是？（ D ）\nA. 感知是识别的基础\nB. 感知主要依赖物理传感器\nC. 识别依赖于算法模型和数据库\nD. 识别主要用于定位跟踪对象",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_011",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 11,
+      "type": "single_choice",
+      "question": "在多模态感知中，感觉和知觉的区别是什么？ （　）",
+      "options": {
+        "A": "感觉是高阶的、主动的信息整合，知觉是低阶的、被动的信号接收。",
+        "B": "感觉和知觉没有区别，都是指信息的初步接收。",
+        "C": "感觉是低阶的、被动的信号接收，知觉是高阶的、主动的信息整合。",
+        "D": "感觉涉及大脑对信息的赋予意义，知觉仅涉及物理刺激的初步接收。"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在多模态感知中，感觉和知觉的区别是什么？ （ C ）\nA. 感觉是高阶的、主动的信息整合，知觉是低阶的、被动的信号接收。\nB. 感觉和知觉没有区别，都是指信息的初步接收。\nC. 感觉是低阶的、被动的信号接收，知觉是高阶的、主动的信息整合。\nD. 感觉涉及大脑对信息的赋予意义，知觉仅涉及物理刺激的初步接收。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_012",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 12,
+      "type": "single_choice",
+      "question": "以下关于条形码描述错误的是（　）。",
+      "options": {
+        "A": "一维条形码密度低、容量小",
+        "B": "一维条形码可以用于对物品的标识",
+        "C": "二维条形码可以对物品具体描述",
+        "D": "二维条形码只支持英文或数字"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 3,
+      "source_pages": [
+        3,
+        4
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于条形码描述错误的是（ D ）。\nA. 一维条形码密度低、容量小\nB. 一维条形码可以用于对物品的标识\nC. 二维条形码可以对物品具体描述\nD. 二维条形码只支持英文或数字",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_013",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 13,
+      "type": "single_choice",
+      "question": "以下不属于 RFID 技术的特点是（　）。",
+      "options": {
+        "A": "数据容量大",
+        "B": "读写距离短",
+        "C": "环境适应性强",
+        "D": "数据可反复修改长期使用"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下不属于 RFID 技术的特点是（ B ）。\nA. 数据容量大\nB. 读写距离短\nC. 环境适应性强\nD. 数据可反复修改长期使用",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_014",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 14,
+      "type": "single_choice",
+      "question": "以下不属于自动识别技术的是（　）",
+      "options": {
+        "A": "条形码技术",
+        "B": "NFC 技术",
+        "C": "IC 卡技术",
+        "D": "图像识别技术"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下不属于自动识别技术的是（ B ）\n（A）条形码技术\n（B）NFC 技术\n（C）IC 卡技术\n（D）图像识别技术",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_015",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 15,
+      "type": "single_choice",
+      "question": "以下属于 EAN-13 条形码的是(　)。",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [
+        {
+          "path": "assets/barcode-a.png",
+          "option": "A",
+          "alt": "选项 A 的原始条码图"
+        },
+        {
+          "path": "assets/barcode-b.png",
+          "option": "B",
+          "alt": "选项 B 的原始条码图"
+        },
+        {
+          "path": "assets/barcode-c.png",
+          "option": "C",
+          "alt": "选项 C 的原始条码图"
+        },
+        {
+          "path": "assets/barcode-d.png",
+          "option": "D",
+          "alt": "选项 D 的原始条码图"
+        }
+      ],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下属于 EAN-13 条形码的是( A )。\n（A）        （B）       （C）       （D）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_016",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 16,
+      "type": "single_choice",
+      "question": "以下条形码中代表国家的识别码是(　)。",
+      "options": {
+        "A": "690",
+        "B": "1234",
+        "C": "5678",
+        "D": "6901"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [
+        {
+          "path": "assets/barcode-country.png",
+          "option": null,
+          "alt": "原 PDF 中标有编码位置的条形码示意图"
+        }
+      ],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下条形码中代表国家的识别码是( A )。\n（A）690    （B）1234   （C）5678   （D）6901",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_017",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 17,
+      "type": "short",
+      "question": "阐述视觉感知和听觉感知中主要的预处理方式及作用。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "阐述视觉感知和听觉感知中主要的预处理方式及作用。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_018",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 18,
+      "type": "short",
+      "question": "简要阐述视觉感知和听觉感知的典型实施步骤流程。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述视觉感知和听觉感知的典型实施步骤流程。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_019",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 19,
+      "type": "short",
+      "question": "结合所在行业和所见所闻，简要给出视觉感知或者听觉感知的典型应用",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "结合所在行业和所见所闻，简要给出视觉感知或者听觉感知的典型应用",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_020",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 20,
+      "type": "short",
+      "question": "简要阐述条形码的识别原理和识别过程，并绘制原理图。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述条形码的识别原理和识别过程，并绘制原理图。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_021",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 21,
+      "type": "short",
+      "question": "简要阐述一维条形码、二维条形码和 RFID 码的区别",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述一维条形码、二维条形码和 RFID 码的区别",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_022",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 22,
+      "type": "short",
+      "question": "简要阐述 RFID 系统的组成和工作原理，并结合所在行业和所见所闻，讨论给出一个具体的使用场景。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 4,
+      "source_pages": [
+        4
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述 RFID 系统的组成和工作原理，并结合所在行业和所见所闻，讨论\n给出一个具体的使用场景。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch02_023",
+      "chapter": "第2章",
+      "chapter_id": "02",
+      "original_number": 23,
+      "type": "short",
+      "question": "给出一种利用自动识别技术（如：条形码、图像识别、机器视觉、RFID 等）进行工业应用的典型场景，并简要阐述其过程。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 5,
+      "source_pages": [
+        5
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "给出一种利用自动识别技术（如：条形码、图像识别、机器视觉、RFID 等）\n进行工业应用的典型场景，并简要阐述其过程。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_001",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 1,
+      "type": "fill",
+      "question": "工业自动化控制系统的三个层次为{{1}}、{{2}}、{{3}}。",
+      "options": null,
+      "answer": [
+        "设备层",
+        "控制层",
+        "监控层"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业自动化控制系统的三个层次为设备层、控制层、监控层。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_002",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 2,
+      "type": "fill",
+      "question": "有线通信网络的传输介质有{{1}}、{{2}}和{{3}}。",
+      "options": null,
+      "answer": [
+        "双绞线",
+        "同轴电缆",
+        "光缆"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "有线通信网络的传输介质有双绞线、同轴电缆和光缆。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_003",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 3,
+      "type": "fill",
+      "question": "常见的通信接口标准有 {{1}}、{{2}}、{{3}}。",
+      "options": null,
+      "answer": [
+        "RS232",
+        "RS485",
+        "网口"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "常见的通信接口标准有 RS232、RS485、网口。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_004",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 4,
+      "type": "fill",
+      "question": "工厂内部网络呈现“两层三级”结构，其中两层指{{1}}和{{2}}，三级指{{3}}、{{4}}、{{5}}。",
+      "options": null,
+      "answer": [
+        "工厂信息（IT）网络",
+        "工厂控制（OT）网络",
+        "现场级",
+        "车间级",
+        "工厂级/企业级"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工厂内部网络呈现“两层三级”结构，其中两层指工厂信息（IT）网络和工\n厂控制（OT）网络，三级指现场级、车间级、工厂级/企业级。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_005",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 5,
+      "type": "fill",
+      "question": "常见的近距离无线通信方式有 {{1}}、{{2}}、{{3}}、{{4}} 等。",
+      "options": null,
+      "answer": [
+        "Zigbee",
+        "_蓝牙",
+        "Wifi",
+        "NFC 和 UWB"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [
+        "原 PDF 下划线标注中还有字面字符「_」，照录。"
+      ],
+      "source_text": "常见的近距离无线通信方式有 Zigbee、_蓝牙、Wifi、NFC 和 UWB 等。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_006",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 6,
+      "type": "fill",
+      "question": "根据信号的不同，通信系统可以分为{{1}}和{{2}}。",
+      "options": null,
+      "answer": [
+        "数字通信系统",
+        "模拟通信系统"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "根据信号的不同，通信系统可以分为数字通信系统和模拟通信系统。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_007",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 7,
+      "type": "fill",
+      "question": "常用的低功耗广域网有 {{1}} 和 {{2}} 技术。",
+      "options": null,
+      "answer": [
+        "NB-IoT",
+        "LoRa"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "常用的低功耗广域网有 NB-IoT 和 LoRa 技术。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_008",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 8,
+      "type": "fill",
+      "question": "网络通信中的信息传输系统由{{1}}和{{2}}三部分组成。",
+      "options": null,
+      "answer": [
+        "发送机、信道",
+        "接收机"
+      ],
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "网络通信中的信息传输系统由发送机、信道和接收机三部分组成。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_009",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 9,
+      "type": "single_choice",
+      "question": "以下不属于工业互联网网络体系的是（　）。",
+      "options": {
+        "A": "工厂内网",
+        "B": "工厂外网",
+        "C": "标识解析网络",
+        "D": "卫星通信网络"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "题干括号标 C，选项 D 标红。两种答题标记冲突。"
+      ],
+      "source_text": "以下不属于工业互联网网络体系的是（ C ）。\nA. 工厂内网     B、工厂外网      C、标识解析网络       D、卫星通信网络",
+      "source_annotation": null,
+      "source_highlight_option": "D"
+    },
+    {
+      "id": "ch03_010",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 10,
+      "type": "single_choice",
+      "question": "5G 技术为工业互联网带来的主要优势是（　）。",
+      "options": {
+        "A": "低成本",
+        "B": "低功耗",
+        "C": "大宽带和低延迟",
+        "D": "高复杂性"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "5G 技术为工业互联网带来的主要优势是（ C ）。\nA、低成本      B、低功耗       C、大宽带和低延迟       D、高复杂性",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_011",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 11,
+      "type": "single_choice",
+      "question": "（　）拓扑结构存在若干节点中心，且任何两个节点之间的通信都要经过中心节点。",
+      "options": {
+        "A": "环形",
+        "B": "星型",
+        "C": "树型",
+        "D": "网状型"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "题干括号标 B，选项 C 标红。两种答题标记冲突。"
+      ],
+      "source_text": "（ B ）拓扑结构存在若干节点中心，且任何两个节点之间的通信都要经过\n中心节点。\nA. 环形   B、星型    C、树型    D、网状型",
+      "source_annotation": null,
+      "source_highlight_option": "C"
+    },
+    {
+      "id": "ch03_012",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 12,
+      "type": "single_choice",
+      "question": "根据双绞线外面是否附有屏蔽层，可以分为屏蔽双绞线和（　）。",
+      "options": {
+        "A": "内层绝缘层",
+        "B": "内层导体",
+        "C": "非屏蔽双绞线",
+        "D": "外层绝缘层"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "根据双绞线外面是否附有屏蔽层，可以分为屏蔽双绞线和（C）。\nA. 内层绝缘层\nB. 内层导体\nC. 非屏蔽双绞线\nD. 外层绝缘层",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_013",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 13,
+      "type": "single_choice",
+      "question": "以下通信技术，不属于低功耗短距离的无线通信技术的是（　）。",
+      "options": {
+        "A": "超宽带",
+        "B": "蓝牙",
+        "C": "WiFi",
+        "D": "NB-IoT"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下通信技术，不属于低功耗短距离的无线通信技术的是（ D ）。\nA、超宽带      B、蓝牙    C、WiFi   D、NB-IoT",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_014",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 14,
+      "type": "single_choice",
+      "question": "LoRa 技术的关键特点是什么？ （　）",
+      "options": {
+        "A": "近距离、高功耗、低成本、易于部署。",
+        "B": "长距离、低功耗、低成本、易于部署。",
+        "C": "长距离、高功耗、高成本、难以部署。",
+        "D": "短距离、低功耗、高成本、难以部署。"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 6,
+      "source_pages": [
+        6
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "LoRa 技术的关键特点是什么？ （ B ）\n（A）近距离、高功耗、低成本、易于部署。\n（B）长距离、低功耗、低成本、易于部署。\n（C）长距离、高功耗、高成本、难以部署。\n（D）短距离、低功耗、高成本、难以部署。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_015",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 15,
+      "type": "single_choice",
+      "question": "以下通信方式使用时需要进行授权的是（　）",
+      "options": {
+        "A": "Wifi",
+        "B": "蓝牙",
+        "C": "NB-IOT",
+        "D": "LORA"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下通信方式使用时需要进行授权的是（C）\n（A）Wifi            （B）蓝牙\n（C）NB-IOT           （D）LORA",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_016",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 16,
+      "type": "single_choice",
+      "question": "UWB 技术的特点有哪些？以下哪项正确描述了其特性？ （　）",
+      "options": {
+        "A": "传输速率高、通信距离短、系统共存性好、定位精度极高、抗多径能力强、体积小、功耗低。",
+        "B": "传输速率低、通信距离远、系统共存性差、定位精度低、抗多径能力弱、体积大、功耗高。",
+        "C": "仅适用于长距离通信，具有高功率和大体积的特点。",
+        "D": "无法实现高速率的数据传输，主要用于低速应用。"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "UWB 技术的特点有哪些？以下哪项正确描述了其特性？ （A）\nA. 传输速率高、通信距离短、系统共存性好、定位精度极高、抗多径能力\n强、体积小、功耗低。\nB. 传输速率低、通信距离远、系统共存性差、定位精度低、抗多径能力弱、\n体积大、功耗高。\nC. 仅适用于长距离通信，具有高功率和大体积的特点。\nD. 无法实现高速率的数据传输，主要用于低速应用。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_017",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 17,
+      "type": "single_choice",
+      "question": "以下最适合室内定位的是（　）。",
+      "options": {
+        "A": "WiFi",
+        "B": "蓝牙",
+        "C": "Zigbee",
+        "D": "UWB"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下最适合室内定位的是（ D ）。\nA. WiFi      B. 蓝牙      C. Zigbee   D. UWB",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_018",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 18,
+      "type": "single_choice",
+      "question": "以下关于 Zigbee 描述不正确的是（　）。",
+      "options": {
+        "A": "可用于传输高频数据",
+        "B": "功耗低",
+        "C": "成本低",
+        "D": "传输速率低"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于 Zigbee 描述不正确的是（ A ）。\nA. 可用于传输高频数据\nB. 功耗低\nC. 成本低\nD. 传输速率低",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_019",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 19,
+      "type": "single_choice",
+      "question": "以下无线通信方式中，功耗最高的是（　）。",
+      "options": {
+        "A": "WiFi",
+        "B": "蓝牙 5.0",
+        "C": "UWB",
+        "D": "Zigbee"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下无线通信方式中，功耗最高的是（ A ）。\nA. WiFi     B. 蓝牙 5.0     C. UWB     D. Zigbee",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_020",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 20,
+      "type": "single_choice",
+      "question": "在短距离无线通信中，关于 NFC 描述不正确的是（　）。",
+      "options": {
+        "A": "安全性高",
+        "B": "成本较高",
+        "C": "传输速率最高",
+        "D": "通信距离最短"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在短距离无线通信中，关于 NFC 描述不正确的是（ C ）。\nA. 安全性高\nB. 成本较高\nC. 传输速率最高\nD. 通信距离最短",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_021",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 21,
+      "type": "single_choice",
+      "question": "以下无线通信方式中，成本最高的是（　）。",
+      "options": {
+        "A": "WiFi",
+        "B": "Zigbee",
+        "C": "蓝牙",
+        "D": "UWB"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下无线通信方式中，成本最高的是（ D ）。\nA. WiFi     B. Zigbee   C. 蓝牙       D. UWB",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_022",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 22,
+      "type": "single_choice",
+      "question": "ESP8266 模块是哪种无线通信模块？（　）",
+      "options": {
+        "A": "Zigbee",
+        "B": "WiFi",
+        "C": "蓝牙",
+        "D": "UWB"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "ESP8266 模块是哪种无线通信模块？（ B ）\nA. Zigbee    B. WiFi    C. 蓝牙       D. UWB",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_023",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 23,
+      "type": "single_choice",
+      "question": "CC2530 模块是哪种无线通信模块？（　）",
+      "options": {
+        "A": "Zigbee",
+        "B": "WiFi",
+        "C": "蓝牙",
+        "D": "UWB"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 7,
+      "source_pages": [
+        7,
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "CC2530 模块是哪种无线通信模块？（ A ）\nA. Zigbee   B. WiFi   C. 蓝牙   D. UWB",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_024",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 24,
+      "type": "single_choice",
+      "question": "以下关于 RS-232 和 RS458 传输接口描述不正确的是（　）",
+      "options": {
+        "A": "RS-232 的传输距离较短",
+        "B": "RS-232 的传输速率较低",
+        "C": "RS-232 支持多点通讯",
+        "D": "RS-232 和 RS-485 都可以采用双绞线作为传输介质"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "题干写 RS458，选项 D 写 RS-485。原样保留，待核验型号与题意。"
+      ],
+      "source_text": "以下关于 RS-232 和 RS458 传输接口描述不正确的是（ C ）\n（A）RS-232 的传输距离较短\n（B）RS-232 的传输速率较低\n（C）RS-232 支持多点通讯\n（D）RS-232 和 RS-485 都可以采用双绞线作为传输介质",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_025",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 25,
+      "type": "single_choice",
+      "question": "以下关于无线网络特点描述错误的是（　）",
+      "options": {
+        "A": "WiFi 的功耗较低",
+        "B": "Zigbee 的通信距离可以达到 20 米",
+        "C": "UWB 在室内定位上优势明显",
+        "D": "LORA 的抗干扰能力较强"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于无线网络特点描述错误的是（ A ）\n（A）WiFi 的功耗较低\n（B）Zigbee 的通信距离可以达到 20 米\n（C）UWB 在室内定位上优势明显\n（D）LORA 的抗干扰能力较强",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_026",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 26,
+      "type": "true_false",
+      "question": "安装在制造或过程区域的现场装置与控制室内的自动控制装置之间的数字式、串行、多点通信的数据总线称为现场总线。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "安装在制造或过程区域的现场装置与控制室内的自动控制装置之间的数字\n式、串行、多点通信的数据总线称为现场总线。                  （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_027",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 27,
+      "type": "true_false",
+      "question": "无线通信技术可以传送电报、电话、传真、图像、数据及广播和电视节目等通信业务。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "无线通信技术可以传送电报、电话、传真、图像、数据及广播和电视节目等\n通信业务。          （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_028",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 28,
+      "type": "true_false",
+      "question": "UWB 在 10m 内的传输速率最高。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "UWB 在 10m 内的传输速率最高。（√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_029",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 29,
+      "type": "true_false",
+      "question": "Zigbee 只能用来传输低频数据。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "Zigbee 只能用来传输低频数据。（√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_030",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 30,
+      "type": "true_false",
+      "question": "UWB 的成本相比 Zigbee 而言，成本相对较高。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "UWB 的成本相比 Zigbee 而言，成本相对较高。（√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_031",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 31,
+      "type": "true_false",
+      "question": "在室内高精度定位时，一般选择蓝牙或者 Wifi 定位。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在室内高精度定位时，一般选择蓝牙或者 Wifi 定位。（×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_032",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 32,
+      "type": "true_false",
+      "question": "NB-IOT 在使用时需要授权，且其组网成本相对较高。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "NB-IOT 在使用时需要授权，且其组网成本相对较高。（×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_033",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 33,
+      "type": "short",
+      "question": "简要阐述下典型的有线传输介质和通信接口。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述下典型的有线传输介质和通信接口。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_034",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 34,
+      "type": "short",
+      "question": "简要阐述工业互联网控制系统的层次及功能。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述工业互联网控制系统的层次及功能。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_035",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 35,
+      "type": "short",
+      "question": "简要绘制出 Zigbee 进行无线网络通信的流程图。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要绘制出 Zigbee 进行无线网络通信的流程图。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_036",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 36,
+      "type": "short",
+      "question": "简要列举常见的近距离无线通信方式，并阐述其通信差异和适用场景。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要列举常见的近距离无线通信方式，并阐述其通信差异和适用场景。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_037",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 37,
+      "type": "short",
+      "question": "简要阐述低功耗广域网 NB-IOT 和 LORA 的差异，并结合所在专业或工业典型场景问题，利用一种无线通信网络，给出对应的应用解决方案（硬件组成、通信网络简图）。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述低功耗广域网 NB-IOT 和 LORA 的差异，并结合所在专业或工业典\n型场景问题，利用一种无线通信网络，给出对应的应用解决方案（硬件组成、\n通信网络简图）。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch03_038",
+      "chapter": "第3章",
+      "chapter_id": "03",
+      "original_number": 38,
+      "type": "short",
+      "question": "结合工业典型场景，给出利用近/远距离无线通信技术的应用解决方案，简要阐明场景痛点问题、采用的技术方案、硬件组成和网络组网及通讯简图等。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 8,
+      "source_pages": [
+        8
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "结合工业典型场景，给出利用近/远距离无线通信技术的应用解决方案，简要\n阐明场景痛点问题、采用的技术方案、硬件组成和网络组网及通讯简图等。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_001",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 1,
+      "type": "fill",
+      "question": "标识解析体系主要由 {{1}} 和 {{2}} 两部分组成。",
+      "options": null,
+      "answer": [
+        "标识编码",
+        "解析系统"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "标识解析体系主要由 标识编码 和 解析系统 两部分组成。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_002",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 2,
+      "type": "fill",
+      "question": "工业互联网标识解析二级节点是指 {{1}} 或 {{2}} 的标识解析公共服务节点。",
+      "options": null,
+      "answer": [
+        "行业",
+        "区域内部"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网标识解析二级节点是指 行业 或 区域内部 的标识解析公共服\n务节点。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_003",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 3,
+      "type": "fill",
+      "question": "常见的被动的标识解析载体有{{1}}、{{2}}和 {{3}}。",
+      "options": null,
+      "answer": [
+        "条码标签",
+        "RFID 标签",
+        "NFC 标签"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "常见的被动的标识解析载体有条码标签、RFID 标签和 NFC 标签。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_004",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 4,
+      "type": "fill",
+      "question": "工业互联网平台的本质是 {{1}} 、 {{2}} 和 {{3}} 。",
+      "options": null,
+      "answer": [
+        "数据",
+        "模型",
+        "服务"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网平台的本质是 数据 、 模型 和 服务 。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_005",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 5,
+      "type": "fill",
+      "question": "工业互联网平台的功能架构包括{{1}}、{{2}}、{{3}}和{{4}}。",
+      "options": null,
+      "answer": [
+        "边缘层",
+        "IaaS 层",
+        "PaaS 层",
+        "应用层"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网平台的功能架构包括边缘层、IaaS 层、PaaS 层和应用层。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_006",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 6,
+      "type": "fill",
+      "question": "边缘计算节点主要包括{{1}}、{{2}}、{{3}}和{{4}}。",
+      "options": null,
+      "answer": [
+        "边缘传感器",
+        "边缘控制器",
+        "边缘网关",
+        "边缘云"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "边缘计算节点主要包括边缘传感器、边缘控制器、边缘网关和边缘云。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_007",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 7,
+      "type": "fill",
+      "question": "典型的工业互联网平台有 {{1}}、{{2}} 和{{3}}等。",
+      "options": null,
+      "answer": [
+        "GE Pedix",
+        "西门子 MindSphere",
+        "海尔 COSMOPlat"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "典型的工业互联网平台有 GE Pedix、西门子 MindSphere 和海尔 COSMOPlat\n等。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_008",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 8,
+      "type": "fill",
+      "question": "边云协同的内容包括{{1}}、{{2}}、{{3}}、{{4}}和{{5}}等。",
+      "options": null,
+      "answer": [
+        "资源协同",
+        "数据协同",
+        "模型协同",
+        "应用协同",
+        "服务协同"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "边云协同的内容包括资源协同、数据协同、模型协同、应用协同和服务协同\n等。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_009",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 9,
+      "type": "fill",
+      "question": "标识解析体系是连接{{1}}和{{2}}的一个翻译器，为每一个物理世界的实体在数字世界对应一个唯一的标识，并可以通过解析查询到其相应的数字描述。",
+      "options": null,
+      "answer": [
+        "物理世界",
+        "数字世界"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "标识解析体系是连接物理世界和数字世界的一个翻译器，为每一个物理世界\n的实体在数字世界对应一个唯一的标识，并可以通过解析查询到其相应的数\n字描述。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_010",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 10,
+      "type": "fill",
+      "question": "工业互联网平台是面向制造业{{1}}、{{2}}、{{3}}需求，构建基于海量数据采集、汇聚、分析的服务体系，支撑制造资源的泛在连接、弹性供给、高效配置的载体。",
+      "options": null,
+      "answer": [
+        "数字化",
+        "网络化",
+        "智能化"
+      ],
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网平台是面向制造业数字化、网络化、智能化需求，构建基于海量\n数据采集、汇聚、分析的服务体系，支撑制造资源的泛在连接、弹性供给、\n高效配置的载体。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_011",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 11,
+      "type": "single_choice",
+      "question": "以下关于工业互联网平台关键技术描述不正确的是（　）",
+      "options": {
+        "A": "硬件等基础设施属于 IaaS 层",
+        "B": "数据处理、建模、管理和分析完全由 PaaS 层实现",
+        "C": "工业 APP 的开发依赖于 PaaS 层的服务",
+        "D": "边缘层位于设备边缘，其涉及设备接入和协议解析"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于工业互联网平台关键技术描述不正确的是（ B ）\n（A）硬件等基础设施属于 IaaS 层\n（B）数据处理、建模、管理和分析完全由 PaaS 层实现\n（C）工业 APP 的开发依赖于 PaaS 层的服务\n（D）边缘层位于设备边缘，其涉及设备接入和协议解析",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_012",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 12,
+      "type": "single_choice",
+      "question": "以下属于 Handle 标识编码的是（　）。",
+      "options": {
+        "A": "86.100.15/201308798946",
+        "B": "1.2.156.3001.05.01.1001.01",
+        "C": "6901234567892",
+        "D": "1.003.6940786180203"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下属于 Handle 标识编码的是（ A ）。\nA. 86.100.15/201308798946\nB. 1.2.156.3001.05.01.1001.01\nC. 6901234567892\nD. 1.003.6940786180203",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_013",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 13,
+      "type": "single_choice",
+      "question": "以下不是依赖域名系统改良而来的工业标识解析体系的是（　）。",
+      "options": {
+        "A": "OID",
+        "B": "Ecode",
+        "C": "Handle",
+        "D": "GS1"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 9,
+      "source_pages": [
+        9,
+        10
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下不是依赖域名系统改良而来的工业标识解析体系的是（ C ）。\nA. OID      B. Ecode      C. Handle   D. GS1",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_014",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 14,
+      "type": "single_choice",
+      "question": "以下关于编码方式不对应的是（　）。",
+      "options": {
+        "A": "域名：www.baidu.com",
+        "B": "Handle: 86.100.15/201308798946",
+        "C": "OID: 123.125.114.114",
+        "D": "EPC：6907713.12345.400.onsepc.com"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 10,
+      "source_pages": [
+        10
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于编码方式不对应的是（ C ）。\nA. 域名：www.baidu.com\nB. Handle: 86.100.15/201308798946\nC. OID: 123.125.114.114\nD. EPC：6907713.12345.400.onsepc.com",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_015",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 15,
+      "type": "single_choice",
+      "question": "以下哪一项不属于工业互联网平台的功能架构层（　）。",
+      "options": {
+        "A": "边缘层",
+        "B": "IaaS 层",
+        "C": "应用层",
+        "D": "物理层"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 10,
+      "source_pages": [
+        10
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下哪一项不属于工业互联网平台的功能架构层（ D ）。\nA. 边缘层\nB. IaaS 层\nC. 应用层\nD. 物理层",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_016",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 16,
+      "type": "single_choice",
+      "question": "工业互联网平台的本质是什么？（　）",
+      "options": {
+        "A": "数据+模型=服务",
+        "D": "设备智能化+流程智能化",
+        "B": "云计算+大数据",
+        "C": "边缘计算+人工智能"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 10,
+      "source_pages": [
+        10
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [
+        "原选项顺序 A、D、B、C，照录。"
+      ],
+      "source_text": "工业互联网平台的本质是什么？（ A ）\n（A）数据+模型=服务\n（D）设备智能化+流程智能化\n（B）云计算+大数据\n（C）边缘计算+人工智能",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_017",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 17,
+      "type": "single_choice",
+      "question": "以下针对工业互联网平台的实现步骤正确的是（　）",
+      "options": {
+        "A": "数据采集→数据分析→APP 决策→模型沉淀",
+        "B": "数据采集→APP 决策→数据分析→模型沉淀",
+        "C": "数据采集→数据分析→模型沉淀→APP 决策",
+        "D": "模型沉淀→数据采集→数据分析→APP 决策"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 10,
+      "source_pages": [
+        10
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下针对工业互联网平台的实现步骤正确的是（ C ）\n（A）数据采集→数据分析→APP 决策→模型沉淀\n（B）数据采集→APP 决策→数据分析→模型沉淀\n（C）数据采集→数据分析→模型沉淀→APP 决策\n（D）模型沉淀→数据采集→数据分析→APP 决策",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_018",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 18,
+      "type": "single_choice",
+      "question": "以下关于工业互联网的描述不正确的是（　）",
+      "options": {
+        "A": "腾讯云、阿里云属于工业互联网平台的 IaaS 层",
+        "B": "PaaS 层包含很多行业机理模型、数据模型和知识等",
+        "C": "国内市场在 IaaS 层的技术水平较高",
+        "D": "国内市场拥有强大的数据采集、边缘计算通信能力"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 10,
+      "source_pages": [
+        10
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于工业互联网的描述不正确的是（ D ）\n（A）腾讯云、阿里云属于工业互联网平台的 IaaS 层\n（B）PaaS 层包含很多行业机理模型、数据模型和知识等\n（C）国内市场在 IaaS 层的技术水平较高\n（D）国内市场拥有强大的数据采集、边缘计算通信能力",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_019",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 19,
+      "type": "single_choice",
+      "question": "以下关于边缘计算节点描述不正确的是（　）",
+      "options": {
+        "A": "边缘传感器负责低功耗数据采集",
+        "B": "边缘控制器负责实时数据处理",
+        "C": "边缘网关负责网络协议处理和转换",
+        "D": "边缘云负责大规模数据处理"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 10,
+      "source_pages": [
+        10,
+        11
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于边缘计算节点描述不正确的是（ B ）\n（A）边缘传感器负责低功耗数据采集\n（B）边缘控制器负责实时数据处理\n（C）边缘网关负责网络协议处理和转换\n（D）边缘云负责大规模数据处理",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_020",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 20,
+      "type": "single_choice",
+      "question": "边缘计算的主要目的是什么？（　）",
+      "options": {
+        "A": "解决集中式计算模式在实时性、带宽、能耗等方面的问题",
+        "B": "完全取代云计算",
+        "C": "增加网络延迟",
+        "D": "降低数据处理能力"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 11,
+      "source_pages": [
+        11
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "边缘计算的主要目的是什么？（ A ）\nA. 解决集中式计算模式在实时性、带宽、能耗等方面的问题\nB. 完全取代云计算\nC. 增加网络延迟\nD. 降低数据处理能力",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_021",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 21,
+      "type": "single_choice",
+      "question": "工业互联网平台架构中，（　）主要负责对海量工业数据的采集、汇聚和存储。",
+      "options": {
+        "A": "边缘层",
+        "B": "IaaS 层",
+        "C": "PaaS 层",
+        "D": "SaaS 层"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 11,
+      "source_pages": [
+        11
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "题干括号标 C，选项 A 标红。两种答题标记冲突。"
+      ],
+      "source_text": "工业互联网平台架构中，（ C ）主要负责对海量工业数据的采集、汇聚和\n存储。\nA. 边缘层    B、IaaS 层   C、PaaS 层   D、SaaS 层",
+      "source_annotation": null,
+      "source_highlight_option": "A"
+    },
+    {
+      "id": "ch45_022",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 22,
+      "type": "single_choice",
+      "question": "我国工业互联网标识解析体系由国际根节点、国家顶级节点、二级节点、企业节点和递归节点等要素组成，其中（　）是面向特定行业或者行业提供标识服务的公共节点。",
+      "options": {
+        "A": "国际根节点",
+        "B": "二级节点",
+        "C": "企业节点",
+        "D": "递归节点"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 11,
+      "source_pages": [
+        11
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [
+        "原文「特定行业或者行业」照录。"
+      ],
+      "source_text": "我国工业互联网标识解析体系由国际根节点、国家顶级节点、二级节点、企\n业节点和递归节点等要素组成，其中（           B ）是面向特定行业或者行业提供\n标识服务的公共节点。\nA、国际根节点      B、二级节点       C、企业节点      D、递归节点",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_023",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 23,
+      "type": "single_choice",
+      "question": "下列哪项是工业互联网平台区别于通用云平台的核心特征。（　）",
+      "options": {
+        "A": "提供公有云服务",
+        "B": "面向工业场景的机理模型与知识库",
+        "C": "支持移动端访问",
+        "D": "具备数据备份功能"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 11,
+      "source_pages": [
+        11
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "下列哪项是工业互联网平台区别于通用云平台的核心特征。（ B ）\nA. 提供公有云服务\nB. 面向工业场景的机理模型与知识库\nC. 支持移动端访问\nD. 具备数据备份功能",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_024",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 24,
+      "type": "single_choice",
+      "question": "下列哪种技术不属于边缘计算（　）。",
+      "options": {
+        "A": "数据清洗",
+        "B": "实时数据分析",
+        "C": "指令下达",
+        "D": "大规模数据存贮"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 11,
+      "source_pages": [
+        11
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "下列哪种技术不属于边缘计算（ D ）。\nA. 数据清洗   B、实时数据分析       C、指令下达      D、大规模数据存贮",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_025",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 25,
+      "type": "single_choice",
+      "question": "下列关于工业互联网平台的说法，错误的是（　）。",
+      "options": {
+        "A": "提供应用开发环境",
+        "B": "集成各类工业应用",
+        "C": "通常部署在云端",
+        "D": "不能实现工业数据的互联互通"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 11,
+      "source_pages": [
+        11
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "下列关于工业互联网平台的说法，错误的是（ D ）。\nA. 提供应用开发环境\nB. 集成各类工业应用\nC. 通常部署在云端\nD. 不能实现工业数据的互联互通",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_026",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 26,
+      "type": "single_choice",
+      "question": "在工业互联网的应用场景中，（　）可以实现对设备的远程监控和故障预警。",
+      "options": {
+        "A": "智能生成",
+        "B": "智能物流",
+        "C": "远程运维",
+        "D": "个性化定制"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 11,
+      "source_pages": [
+        11,
+        12
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在工业互联网的应用场景中，（ C ）可以实现对设备的远程监控和故障预\n警。\nA. 智能生成\nB. 智能物流\nC. 远程运维\nD. 个性化定制",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_027",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 27,
+      "type": "true_false",
+      "question": "边缘计算和云计算是相互竞争关系，不能共存。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "边缘计算和云计算是相互竞争关系，不能共存。       （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_028",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 28,
+      "type": "true_false",
+      "question": "工业互联网平台的 IaaS 层主要提供软件服务。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网平台的 IaaS 层主要提供软件服务。   （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_029",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 29,
+      "type": "true_false",
+      "question": "边缘计算可以完全代替云计算，两者无需协同。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "边缘计算可以完全代替云计算，两者无需协同。       （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_030",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 30,
+      "type": "true_false",
+      "question": "工业互联网标识解析体系可以实现对工业产品和设备的唯一标识和信息查询。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网标识解析体系可以实现对工业产品和设备的唯一标识和信息查\n询。   （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_031",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 31,
+      "type": "true_false",
+      "question": "工业互联网中的“工业”是指工业全生命周期活动中所涉及的各类人、机、物、信息、数据等工业资源。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网中的“工业”是指工业全生命周期活动中所涉及的各类人、机、物、\n信息、数据等工业资源。     （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_032",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 32,
+      "type": "short",
+      "question": "简述工业互联网标识解析体系组成和各部分的作用",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简述工业互联网标识解析体系组成和各部分的作用",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_033",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 33,
+      "type": "short",
+      "question": "简要分析标识解析系统在具体某一工业应用场景中的应用。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要分析标识解析系统在具体某一工业应用场景中的应用。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_034",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 34,
+      "type": "short",
+      "question": "简述工业互联网平台的架构及各层的主要功能。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简述工业互联网平台的架构及各层的主要功能。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_035",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 35,
+      "type": "short",
+      "question": "简要阐述工业互联网边缘计算系统架构的层次和作用。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述工业互联网边缘计算系统架构的层次和作用。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch45_036",
+      "chapter": "第4—5章",
+      "chapter_id": "45",
+      "original_number": 36,
+      "type": "short",
+      "question": "请结合专业特点，给出一种边云协同的典型应用场景，并简要阐述其实现过程。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 12,
+      "source_pages": [
+        12
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "请结合专业特点，给出一种边云协同的典型应用场景，并简要阐述其实现过\n程。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_001",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 1,
+      "type": "fill",
+      "question": "大数据涉及的关键技术包括{{1}}、{{2}}和{{3}}等。",
+      "options": null,
+      "answer": [
+        "数据采集技术",
+        "数据存储技术",
+        "数据计算技术"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "大数据涉及的关键技术包括数据采集技术、数据存储技术和数据计算技术等。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_002",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 2,
+      "type": "fill",
+      "question": "从工业维度，工业 APP 其分类为{{1}}、{{2}}、{{3}} 和{{4}}。",
+      "options": null,
+      "answer": [
+        "研发设计类 APP",
+        "生产制造类 APP",
+        "运维服务类 APP",
+        "运营管理类 APP"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "从工业维度，工业 APP 其分类为研发设计类 APP、生产制造类 APP、运维\n服务类 APP 和运营管理类 APP。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_003",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 3,
+      "type": "fill",
+      "question": "从数据类型角度划分，工业大数据的数据分为{{1}}、{{2}}和{{3}}。",
+      "options": null,
+      "answer": [
+        "结构化数据",
+        "半结构化数据",
+        "非结构化数据"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "从数据类型角度划分，工业大数据的数据分为结构化数据、半结构化数据和\n非结构化数据。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_004",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 4,
+      "type": "fill",
+      "question": "工业大数据是大数据的子集，继承和符合大数据 4V 的内生特征，即{{1}}、{{2}}、{{3}}、{{4}}。",
+      "options": null,
+      "answer": [
+        "大规模（volume）",
+        "速度快（velocity）",
+        "类型杂（variety）",
+        "低质量（veracity）"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据是大数据的子集，继承和符合大数据 4V 的内生特征，即大规模\n（volume）、速度快（velocity）、类型杂（variety）、低质量（veracity）。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_005",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 5,
+      "type": "fill",
+      "question": "工业大数据应用可以分为{{1}}、{{2}}、{{3}}、{{4}}和{{5}}五大类。",
+      "options": null,
+      "answer": [
+        "描述类应用",
+        "诊断类应用",
+        "预测类应用",
+        "决策类应用",
+        "控制类应用"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据应用可以分为描述类应用、诊断类应用、预测类应用、决策类应\n用和控制类应用五大类。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_006",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 6,
+      "type": "fill",
+      "question": "大数据处理的基本流程包括：{{1}}、{{2}}、{{3}}、{{4}}、{{5}}。",
+      "options": null,
+      "answer": [
+        "数据采集",
+        "数据存储",
+        "数据清洗",
+        "数据分析",
+        "数据可视化"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "大数据处理的基本流程包括：数据采集、数据存储、数据清洗、数据分析、\n数据可视化。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_007",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 7,
+      "type": "fill",
+      "question": "从本质特征角度，工业 App 可以分为{{1}} 和{{2}}。",
+      "options": null,
+      "answer": [
+        "机理模型类工业 App",
+        "数据驱动类工业 App"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "从本质特征角度，工业 App 可以分为机理模型类工业 App 和数据驱动类工\n业 App。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_008",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 8,
+      "type": "fill",
+      "question": "工业互联网安全体系主要包括{{1}}、{{2}}、{{3}}、{{4}}和{{5}}。",
+      "options": null,
+      "answer": [
+        "控制安全",
+        "设备安全",
+        "网络安全",
+        "应用安全",
+        "数据安全"
+      ],
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网安全体系主要包括控制安全、设备安全、网络安全、应用安全和\n数据安全。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_009",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 9,
+      "type": "single_choice",
+      "question": "以下关于工业 APP 描述不正确的是（　）",
+      "options": {
+        "A": "工业 APP 是在工业软件的基础上发展起来的",
+        "B": "工业 APP 强调云化、知识化、轻量化等",
+        "C": "工业 APP 分为工业软件云化改造和新型工业 APP",
+        "D": "工业 APP 包括机理模型类 APP 和数据驱动类 APP"
+      },
+      "answer": "A",
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下关于工业 APP 描述不正确的是（ A ）\n（A）工业 APP 是在工业软件的基础上发展起来的\n（B）工业 APP 强调云化、知识化、轻量化等\n（C）工业 APP 分为工业软件云化改造和新型工业 APP\n（D）工业 APP 包括机理模型类 APP 和数据驱动类 APP",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_010",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 10,
+      "type": "single_choice",
+      "question": "以下关于大数据的描述不正确的是（ ）",
+      "options": {
+        "A": "企业业务数据需要实时采集",
+        "D": "工业物联网数据的实时性要求较高",
+        "B": "企业外部数据主要是非结构化数据",
+        "C": "SCADA 产生的数据主要用于生产监控"
+      },
+      "answer": null,
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "题干答题括号为空，四个选项均未标答案。",
+        "原选项顺序 A、D、B、C，照录。"
+      ],
+      "source_text": "以下关于大数据的描述不正确的是（           ）（8）\n（A）企业业务数据需要实时采集\n（D）工业物联网数据的实时性要求较高\n（B）企业外部数据主要是非结构化数据\n（C）SCADA 产生的数据主要用于生产监控",
+      "source_annotation": "（8）",
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_011",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 11,
+      "type": "single_choice",
+      "question": "以下不属于工业互联网安全体系的内容是？（　）",
+      "options": {
+        "A": "控制安全、设备安全",
+        "B": "网络安全、应用安全",
+        "C": "应用安全、数据安全",
+        "D": "控制安全、文件安全"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 13,
+      "source_pages": [
+        13,
+        14
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "以下不属于工业互联网安全体系的内容是？（ D ）\n（A）控制安全、设备安全\n（B）网络安全、应用安全\n（C）应用安全、数据安全\n（D）控制安全、文件安全",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_012",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 12,
+      "type": "single_choice",
+      "question": "以下属于行业通用 APP 的是（　）",
+      "options": {
+        "A": "带传动 APP",
+        "B": "摩擦轮传动 APP",
+        "C": "设备健康管理 APP",
+        "D": "风力发电机 APP"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 14,
+      "source_pages": [
+        14
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [
+        "原题号 12 第一次出现。"
+      ],
+      "source_text": "以下属于行业通用 APP 的是（ C ）（6）（6）\n（A）带传动 APP\n（B）摩擦轮传动 APP\n（C）设备健康管理 APP\n（D）风力发电机 APP",
+      "source_annotation": "（6）（6）",
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_013",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 13,
+      "type": "single_choice",
+      "question": "数据的存储管理属于大数据架构中的哪个层次（　）",
+      "options": {
+        "A": "数据采集交换层",
+        "B": "数据集成处理层",
+        "C": "数据建模分析层",
+        "D": "数据决策控制层"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 14,
+      "source_pages": [
+        14
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "数据的存储管理属于大数据架构中的哪个层次（ B ）（7）\n（A）数据采集交换层\n（B）数据集成处理层\n（C）数据建模分析层\n（D）数据决策控制层",
+      "source_annotation": "（7）",
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_012_2",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 12,
+      "type": "single_choice",
+      "question": "针对海量时间顺序数据需要采用的数据存储数据库是（　）",
+      "options": {
+        "A": "MySQL",
+        "B": "HDFS",
+        "C": "InfluxDB",
+        "D": "Neo4j"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 14,
+      "source_pages": [
+        14
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [
+        "原题号 12 第二次出现，位于原题号 13 之后。"
+      ],
+      "source_text": "针对海量时间顺序数据需要采用的数据存储数据库是（ C ）（8）（7）\n（A）MySQL\n（B）HDFS\n（C）InfluxDB\n（D）Neo4j",
+      "source_annotation": "（8）（7）",
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_014",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 14,
+      "type": "single_choice",
+      "question": "工业大数据分析的首要步骤通常是（　）。",
+      "options": {
+        "A": "数据可视化",
+        "B": "数据预处理",
+        "C": "模型部署",
+        "D": "结果解释"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 14,
+      "source_pages": [
+        14
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据分析的首要步骤通常是（ B ）。\nA. 数据可视化        B、数据预处理     C、模型部署   D、结果解释",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_015",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 15,
+      "type": "single_choice",
+      "question": "在工业大数据应用中，用于分析设备运行数据，预测潜在故障的技术是（　）。",
+      "options": {
+        "A": "数据可视化",
+        "B": "聚类分析",
+        "C": "关联性挖掘",
+        "D": "预测性维护算法"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 14,
+      "source_pages": [
+        14
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在工业大数据应用中，用于分析设备运行数据，预测潜在故障的技术是（ D ）。\nA. 数据可视化        B、聚类分析     C、关联性挖掘   D、预测性维护算\n法",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_016",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 16,
+      "type": "single_choice",
+      "question": "工业互联网既要面联传统互联网的（　）威胁，又要面临工业生产、管理等内部的安全威胁。",
+      "options": {
+        "A": "原来",
+        "B": "新型",
+        "C": "外部",
+        "D": "内部"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 14,
+      "source_pages": [
+        14
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [
+        "原文「面联」照录。"
+      ],
+      "source_text": "工业互联网既要面联传统互联网的（ C ）威胁，又要面临工业生产、管理\n等内部的安全威胁。\nA. 原来   B. 新型    C. 外部   D. 内部",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_017",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 17,
+      "type": "single_choice",
+      "question": "随着工业互联网安全攻击日益呈现出新型化、多样化、复杂化，现有的工业互联网安全暴露出哪些问题。（　）",
+      "options": {
+        "A": "数据隐私和数据安全防护缺乏有效手段",
+        "B": "OT 与 IT 领域技术人员融合较慢，安全意识继续提升",
+        "C": "工业信息安全存在先天不足，安全防护能力难以快速提升",
+        "D": "以上皆是"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 14,
+      "source_pages": [
+        14,
+        15
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "随着工业互联网安全攻击日益呈现出新型化、多样化、复杂化，现有的工业\n互联网安全暴露出哪些问题。（ D ）\nA、数据隐私和数据安全防护缺乏有效手段\nB、OT 与 IT 领域技术人员融合较慢，安全意识继续提升\nC、工业信息安全存在先天不足，安全防护能力难以快速提升\nD、以上皆是",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_018",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 18,
+      "type": "single_choice",
+      "question": "工业大数据具有（　）的特点。",
+      "options": {
+        "A": "数据量小、类型单一、价值密度高",
+        "B": "数据量小、类型多样、价值密度低",
+        "C": "数据量大、类型单一、价值密度低",
+        "D": "数据量大、类型多样、价值密度低"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 15,
+      "source_pages": [
+        15
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据具有（ D ）的特点。\nA. 数据量小、类型单一、价值密度高\nB. 数据量小、类型多样、价值密度低\nC. 数据量大、类型单一、价值密度低\nD. 数据量大、类型多样、价值密度低",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_019",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 19,
+      "type": "single_choice",
+      "question": "工业大数据的 5V 特征不包括（　）",
+      "options": {
+        "A": "Volume（大量性）",
+        "B": "Velocity（高速性）",
+        "C": "Validity（有效性）",
+        "D": "Veracity（真实性）"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 15,
+      "source_pages": [
+        15
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据的 5V 特征不包括（ C ）\nA. Volume（大量性）\nB. Velocity（高速性）\nC. Validity（有效性）\nD. Veracity（真实性）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_020",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 20,
+      "type": "single_choice",
+      "question": "工业数据采集的主要方式不包括（　）",
+      "options": {
+        "A": "传感器数据采集",
+        "B": "手工录入生成报表",
+        "C": "ERP 系统数据对接",
+        "D": "社交媒体舆情爬取"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 15,
+      "source_pages": [
+        15
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业数据采集的主要方式不包括（ D ）\nA. 传感器数据采集\nB. 手工录入生成报表\nC. ERP 系统数据对接\nD. 社交媒体舆情爬取",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_021",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 21,
+      "type": "single_choice",
+      "question": "工业大数据的主要特点不包括以下哪项（　）。",
+      "options": {
+        "A": "数据量大",
+        "B": "数据类型多",
+        "C": "数据更新快",
+        "D": "数据价值低"
+      },
+      "answer": "D",
+      "explanation": null,
+      "source_page": 15,
+      "source_pages": [
+        15
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据的主要特点不包括以下哪项（ D ）。\nA. 数据量大    B、数据类型多   C、数据更新快   D、数据价值低",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_022",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 22,
+      "type": "single_choice",
+      "question": "实现工业互联网的安全，以下哪项措施最为关键（　）。",
+      "options": {
+        "A": "定期更换密码",
+        "B": "部署防火墙",
+        "C": "建立完善的安全管理体系",
+        "D": "使用最新的安全技术"
+      },
+      "answer": "C",
+      "explanation": null,
+      "source_page": 15,
+      "source_pages": [
+        15
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "实现工业互联网的安全，以下哪项措施最为关键（ C ）。\nA. 定期更换密码\nB. 部署防火墙\nC. 建立完善的安全管理体系\nD. 使用最新的安全技术",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_023",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 23,
+      "type": "single_choice",
+      "question": "在工业互联网安全中，“数据安全”的核心目标是（　）",
+      "options": {
+        "A": "提升数据传输速度",
+        "B": "防止工业数据泄露、篡改或丢失",
+        "C": "减少数据存储成本",
+        "D": "简化数据处理流程"
+      },
+      "answer": "B",
+      "explanation": null,
+      "source_page": 15,
+      "source_pages": [
+        15
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "在工业互联网安全中，“数据安全”的核心目标是（ B ）\nA. 提升数据传输速度\nB. 防止工业数据泄露、篡改或丢失\nC. 减少数据存储成本\nD. 简化数据处理流程",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_024",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 24,
+      "type": "true_false",
+      "question": "工业大数据的核心价值在于对数据的深度挖掘和分析，从而为企业提供决策支持。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据的核心价值在于对数据的深度挖掘和分析，从而为企业提供决策\n支持。   （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_025",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 25,
+      "type": "true_false",
+      "question": "工业大数据的采集过程通常涉及多种传感器和设备，数据来源广泛。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据的采集过程通常涉及多种传感器和设备，数据来源广泛。      （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_026",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 26,
+      "type": "true_false",
+      "question": "工业大数据分析的结果可以直接应用于实际生产，无需经过任何转换或解释。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据分析的结果可以直接应用于实际生产，无需经过任何转换或解释。\n（×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_027",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 27,
+      "type": "true_false",
+      "question": "工业大数据的结构化数据占比通常高于非结构数据。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据的结构化数据占比通常高于非结构数据。     （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_028",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 28,
+      "type": "true_false",
+      "question": "工业互联网安全仅指网络安全，不包括数据安全和设备安全。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网安全仅指网络安全，不包括数据安全和设备安全。 （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_029",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 29,
+      "type": "true_false",
+      "question": "工业互联网的安全问题比消费互联网更复杂、挑战更大。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业互联网的安全问题比消费互联网更复杂、挑战更大。     （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_030",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 30,
+      "type": "true_false",
+      "question": "工业大数据的价值密度高，不需要进行深度挖掘就可以直接获取有价值的信息。",
+      "options": null,
+      "answer": false,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业大数据的价值密度高，不需要进行深度挖掘就可以直接获取有价值的信\n息。    （×）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_031",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 31,
+      "type": "true_false",
+      "question": "工业 APP 是一种承载工业技术知识、经验与规律的形式化应用程序，是工业技术软件化的主要成果。",
+      "options": null,
+      "answer": true,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "verified",
+      "auto_grade": true,
+      "notes": [],
+      "source_text": "工业 APP 是一种承载工业技术知识、经验与规律的形式化应用程序，是工业\n技术软件化的主要成果。     （√）",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_032",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 32,
+      "type": "short",
+      "question": "简要阐述工业 APP 和工业软件的差异？",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要阐述工业 APP 和工业软件的差异？",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_033",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 33,
+      "type": "short",
+      "question": "请结合工业实际场景，论述大数据应用如何促进制造业转型升级。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "请结合工业实际场景，论述大数据应用如何促进制造业转型升级。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    },
+    {
+      "id": "ch68_034",
+      "chapter": "第6—8章",
+      "chapter_id": "68",
+      "original_number": 34,
+      "type": "short",
+      "question": "简要列举工业互联网安全的主要类型。",
+      "options": null,
+      "answer": null,
+      "explanation": null,
+      "source_page": 16,
+      "source_pages": [
+        16
+      ],
+      "images": [],
+      "status": "needs_review",
+      "auto_grade": false,
+      "notes": [
+        "原 PDF 未附参考答案。"
+      ],
+      "source_text": "简要列举工业互联网安全的主要类型。",
+      "source_annotation": null,
+      "source_highlight_option": null
+    }
+  ]
+}
